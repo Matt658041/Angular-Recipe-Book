@@ -8,7 +8,8 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 recipes: Recipe[] = [
-  new Recipe('A Test Recipe', 'This is simply a test','https://www.flickr.com/photos/30478819@N08/51129079431' )
+  new Recipe('A Test Recipe', 'This is simply a test','https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg' ),
+  new Recipe('A Test Recipe', 'This is simply a test','https://cdn.loveandlemons.com/wp-content/uploads/2020/03/bean-recipes-1.jpg' )
 ];
   constructor() { }
 
